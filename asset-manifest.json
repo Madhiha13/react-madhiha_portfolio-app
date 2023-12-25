@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.js": "/react-madhiha_portfolio-app/static/js/main.a45c42ad.js",
+    "static/media/project1_img.PNG": "/react-madhiha_portfolio-app/static/media/project1_img.aa528043de56c4655dc5.PNG",
+    "static/media/project2_img.PNG": "/react-madhiha_portfolio-app/static/media/project2_img.5938264e05e7513c2292.PNG",
+    "static/media/Profile_img.jpg": "/react-madhiha_portfolio-app/static/media/Profile_img.de3b2b425511b082e9df.jpg",
+    "static/media/project3_img.PNG": "/react-madhiha_portfolio-app/static/media/project3_img.640eaa36de68fafbee1e.PNG",
+    "index.html": "/react-madhiha_portfolio-app/index.html",
+    "main.a45c42ad.js.map": "/react-madhiha_portfolio-app/static/js/main.a45c42ad.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.a45c42ad.js"
+  ]
+}

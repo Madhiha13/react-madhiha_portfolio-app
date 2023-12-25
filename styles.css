@@ -1,0 +1,231 @@
+body{
+    background-color:rgb(32, 75, 98);
+    gap:20px;
+}
+
+
+.row1{
+    
+    display:flex;
+    position:fixed;
+    width:100%;
+    top:0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    z-index:800;
+    background-color: #aedcfd;
+    box-shadow: 0 4px 8px rgba(121, 116, 163, 0.); 
+
+}
+
+.heading {
+    font-size: 30px;
+    color:#164863;
+
+}
+.side-contents{
+    margin-left: 360px;;
+}
+.side-contents ul{
+display:flex;
+list-style: none;
+padding: 25px;
+
+}
+
+.side-contents ul li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:0 1rem;
+    list-style: none;
+
+}
+.side-contents a:hover {
+    color: #007bff; /* Hover color */
+  }
+
+
+.skills-container {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #aedcfd;
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    max-width: 700px; /* Adjust as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    float:center; /* Make the container float to the left */
+  
+    &:hover {
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+  }
+  
+
+
+  
+  .skills-list{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .skill-item{
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  
+    &:hover {
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+  }
+
+.profile-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 250px;
+  }
+  
+.welcome-info {
+    max-width: 400px; 
+    color:#def1ff;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+  }
+  
+.profile-img {
+    position: relative;
+  }
+  
+  .rounded-img {
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(93, 102, 239, 0.5);
+  }
+  
+
+  .About-container{
+    padding: 18px;
+    border-radius: 8px;
+    background-color: #aedcfd;
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    max-width: 700px; 
+   
+    margin: 0 auto; 
+    float:center; 
+  
+    &:hover {
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+  }
+  
+ 
+.About-container {
+    margin-bottom: 80px; 
+  }
+  
+
+  .skills-container {
+    margin-top: 160px; 
+    margin-bottom: 80px;
+}
+
+    .About-container h1{
+        color:#164863;
+    }
+  
+    .About-container p{
+        font-size: 20px;
+        font-style: bold;
+        font-family: 'Times New Roman', Times, serif;
+        color:azure;
+        flex-direction: column;
+        line-height: 1.5;
+    }
+    .Projects-container{
+        
+        max-width: 700px;
+        margin: 0 auto;
+    }   
+.Projects-container h2{
+     font-size: 30px;
+     text-align: center;
+
+}
+    .project{
+        display:flex;
+        margin-top: 60px; 
+        margin-bottom: 80px;
+        background-color: #aedcfd;
+        font-family: 'Times New Roman', Times, serif;
+        color:#164863;
+        line-height: 1.5;
+        border-radius: 2%;
+        align-items: center;
+        &:hover {
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+          }
+    }
+    .project img{
+        padding:30px;
+        background-size: cover;
+        border-radius: 15%;
+        
+    }
+    .Contacts-container{
+        color: #333;
+        font-family: 'Times New Roman', Times, serif;
+
+
+    }
+    .Contacts-container h2{
+       
+            text-align: center;
+          }
+    
+
+    .div_nest1{
+        display:flex;
+        gap:40px;
+        text-align:center;
+        justify-content: center;
+        margin-bottom: 40px;
+        
+    }
+    .div_nest1 a{
+        color:  #aedcfd;
+    }
+
+    .div_nest2{
+        display:flex;
+        gap:180px;
+        text-align:center;
+        justify-content: center;
+        margin-bottom: 40px;
+        
+    }
+    .div_nest2 a,h5{
+        color:  #aedcfd;
+    }
+
+    .footer-container{
+        width:100%;
+        margin:0;
+        background-color: #aedcfd;
+        text-align: center;
+        font-size: 30px;
+        padding:20px;
+    }
+ 
